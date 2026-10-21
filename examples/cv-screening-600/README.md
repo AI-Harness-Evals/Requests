@@ -26,6 +26,10 @@ This is a descriptive factorial study of one model and one job description, not 
 - **Apparent reliability is mostly between-subject:** overall Pearson **r=0.928** and ICC **0.928**, but after centering within subject the correlation is **r=0.114**. Per-subject correlations range from **−0.08 to 0.32**.
 - **Scores collapse onto a few integer buckets:** **128/1,197** calls scored exactly **38**, **82** exactly **12**, and **71** exactly **58**. About a third of Business Studies and Computer Science calls land on a single modal value.
 
+![Distribution of CV-level mean scores, stacked by degree subject](charts/01_score_distribution.png)
+
+*Figure 1. The overall distribution is not a single bell curve: each degree-subject template occupies its own score band. The solid line is the overall mean; the dashed line is the median.*
+
 ## Dimension tables
 
 ### Candidate name
@@ -43,6 +47,10 @@ This is a descriptive factorial study of one model and one job description, not 
 | Aisha Patel | 60 | 39.11 | 14.57 | 35.33 to 42.69 | -0.58 |
 | Alice Brown | 60 | 38.92 | 15.47 | 34.90 to 42.68 | -0.77 |
 
+![Candidate-name means with 95% bootstrap intervals](charts/03_candidate_names.png)
+
+*Figure 2. Changing the candidate name moves the group mean by about two points. Every interval overlaps the grand mean. The x-axis starts at 30 to make the differences visible.*
+
 ### University
 
 | Level | CVs | Mean | SD | 95% CI | Delta vs overall |
@@ -51,6 +59,10 @@ This is a descriptive factorial study of one model and one job description, not 
 | Newcastle University | 150 | 39.19 | 14.93 | 36.80 to 41.54 | -0.49 |
 | University of South Wales | 150 | 39.19 | 15.25 | 36.73 to 41.60 | -0.50 |
 | University of Bristol | 150 | 39.13 | 15.26 | 36.67 to 41.54 | -0.55 |
+
+![University means with 95% bootstrap intervals](charts/04_university.png)
+
+*Figure 3. Oxford is nominally higher, but the Oxford-versus-other-three interval includes zero. The x-axis starts at 30.*
 
 ### Degree subject
 
@@ -62,6 +74,10 @@ This is a descriptive factorial study of one model and one job description, not 
 | Computer Science | 120 | 36.81 | 3.19 | 36.25 to 37.37 | -2.87 |
 | Business Studies | 120 | 13.62 | 2.58 | 13.16 to 14.09 | -26.06 |
 
+![Degree-subject boxplots with individual CVs](charts/02_subject_scores.png)
+
+*Figure 4. Degree subject is the dominant signal. Each point is one CV-level mean; diamonds mark group means. Business Studies is the only 2:1 template.*
+
 ### Degree classification
 
 | Level | CVs | Mean | SD | 95% CI | Delta vs overall |
@@ -71,6 +87,10 @@ This is a descriptive factorial study of one model and one job description, not 
 
 Classification is nested inside subject in this design. Do not read the 2:1 row as a class effect independent of subject.
 
+![Mean score by degree classification](charts/06_degree_classification.png)
+
+*Figure 5. The apparent classification gap is a subject-and-class contrast: every Business Studies CV is 2:1, and every other CV is First-Class.*
+
 ### A-level profile
 
 | Level | CVs | Mean | SD | 95% CI | Delta vs overall |
@@ -78,6 +98,10 @@ Classification is nested inside subject in this design. Do not read the 2:1 row 
 | A | 200 | 41.18 | 14.85 | 39.07 to 43.20 | +1.50 |
 | B | 200 | 39.69 | 15.25 | 37.56 to 41.77 | +0.00 |
 | C | 200 | 38.19 | 15.52 | 36.03 to 40.32 | -1.50 |
+
+![A-level profile means with 95% bootstrap intervals](charts/05_a_level_profile.png)
+
+*Figure 6. Profile A is about three points above C. The A–B and B–C differences are not resolved by this sample. The x-axis starts at 30.*
 
 ## Variance decomposition
 
@@ -92,6 +116,10 @@ Main-effects OLS on the 600 CV-level means. Shares are unadjusted eta-squared; t
 | Residual | 581 | - | - | 3.63% |
 
 The two-way model found no subject × profile interaction (p=0.19), no university × subject interaction (p=0.22), and no name × university interaction (p=0.18). The name × profile term was nominally p=0.011 but is small and not interpreted.
+
+![Share of variance explained by each factor](charts/07_variance_decomposition.png)
+
+*Figure 7. Subject explains 95.25% of the variance in CV-level means. The log scale is necessary because the remaining factors are all below 1%.*
 
 ## Repeatability
 
@@ -110,11 +138,19 @@ The two-way model found no subject × profile interaction (p=0.19), no universit
 
 Temperature 0 did not make the hosted endpoint deterministic. The overall correlation is inflated by the 17–43 point subject separations; within each subject, call-to-call correlation is close to zero. The two-call mean is a better estimate of a CV's subject-band position, but it is not a reliable candidate-level score.
 
+![Call agreement and Bland–Altman limits](charts/08_repeatability.png)
+
+*Figure 8. The left panel looks reassuring until the subject clusters are separated; within subject, the two calls are nearly uncorrelated (r=0.114). The right panel shows a 5.89-point SD of paired differences and wide limits of agreement.*
+
 ## Interpretation
 
 The model behaves like a job-fit scorer with a very strong prior over degree field. Physics and Mathematics CVs are pulled toward the mathematical-modelling job description; Computer Science and especially Business Studies are pushed down. Almost all between-CV variance is a subject-band effect, with within-subject SD only about 2.6–4.0 points.
 
 Scores also collapse onto a small set of integers, consistent with a coarse rubric or bucket heuristic rather than continuous candidate-level evaluation.
+
+![Mean score by degree subject and A-level profile](charts/09_subject_profile_heatmap.png)
+
+*Figure 9. The A-level profile gradient is a small parallel shift inside every subject band; there is no evidence that the profile effect reverses by subject.*
 
 The weak university and name results are useful negative findings: changing a candidate's name or moving the same profile between four UK universities did not produce a reliable score shift. The A-level gradient is monotonic but small; the lowest profile costs roughly three points against the highest.
 
