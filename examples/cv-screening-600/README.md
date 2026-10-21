@@ -32,6 +32,8 @@ This is a descriptive factorial study of one model and one job description, not 
 
 ## Dimension tables
 
+Tables report mean, SD, and a 95% bootstrap interval for each group. The charts show the full CV-level distribution instead: every point is one CV, with boxes for the median and quartiles.
+
 ### Candidate name
 
 | Level | CVs | Mean | SD | 95% CI | Delta vs overall |
@@ -47,9 +49,9 @@ This is a descriptive factorial study of one model and one job description, not 
 | Aisha Patel | 60 | 39.11 | 14.57 | 35.33 to 42.69 | -0.58 |
 | Alice Brown | 60 | 38.92 | 15.47 | 34.90 to 42.68 | -0.77 |
 
-![Candidate-name means with 95% bootstrap intervals](charts/03_candidate_names.png)
+![Candidate-name boxplots with every CV](charts/03_candidate_names.png)
 
-*Figure 2. Changing the candidate name moves the group mean by about two points. Every interval overlaps the grand mean. The x-axis starts at 30 to make the differences visible.*
+*Figure 2. Candidate-name distributions overlap almost completely. Each point is one CV; boxes show the median and quartiles; diamonds mark group means.*
 
 ### University
 
@@ -60,9 +62,9 @@ This is a descriptive factorial study of one model and one job description, not 
 | University of South Wales | 150 | 39.19 | 15.25 | 36.73 to 41.60 | -0.50 |
 | University of Bristol | 150 | 39.13 | 15.26 | 36.67 to 41.54 | -0.55 |
 
-![University means with 95% bootstrap intervals](charts/04_university.png)
+![University boxplots with every CV](charts/04_university.png)
 
-*Figure 3. Oxford is nominally higher, but the Oxford-versus-other-three interval includes zero. The x-axis starts at 30.*
+*Figure 3. Oxford is nominally higher, but its distribution overlaps the other universities almost entirely. Each point is one CV; diamonds mark group means.*
 
 ### Degree subject
 
@@ -87,9 +89,9 @@ This is a descriptive factorial study of one model and one job description, not 
 
 Classification is nested inside subject in this design. Do not read the 2:1 row as a class effect independent of subject.
 
-![Mean score by degree classification](charts/06_degree_classification.png)
+![Degree-classification boxplots with every CV](charts/06_degree_classification.png)
 
-*Figure 5. The apparent classification gap is a subject-and-class contrast: every Business Studies CV is 2:1, and every other CV is First-Class.*
+*Figure 5. The apparent classification gap is a subject-and-class contrast: every Business Studies CV is 2:1, and every other CV is First-Class. Each point is one CV.*
 
 ### A-level profile
 
@@ -99,9 +101,25 @@ Classification is nested inside subject in this design. Do not read the 2:1 row 
 | B | 200 | 39.69 | 15.25 | 37.56 to 41.77 | +0.00 |
 | C | 200 | 38.19 | 15.52 | 36.03 to 40.32 | -1.50 |
 
-![A-level profile means with 95% bootstrap intervals](charts/05_a_level_profile.png)
+![A-level-profile boxplots with every CV](charts/05_a_level_profile.png)
 
-*Figure 6. Profile A is about three points above C. The A–B and B–C differences are not resolved by this sample. The x-axis starts at 30.*
+*Figure 6. Profile A is about three points above C, but the distributions overlap heavily. Each point is one CV; boxes show the median and quartiles; diamonds mark means.*
+
+### Exploratory: perceived gender from name
+
+The original design has no gender attribute. This chart is a **name-perception proxy**, not self-identified gender, and it was not randomized. Names are grouped as follows:
+
+| Group | Names |
+|---|---|
+| Female | Aisha Patel, Alice Brown, Fatima Okafor, Mei Chen |
+| Male | James Brown, Mohammed Ali, Olufemi Adebayo |
+| Ambiguous / unisex | Alex Morgan, Jamie Taylor, Wei Chen |
+
+Assignments are judgment calls; the table shows every mapping. Ambiguous names are kept separate rather than forced into a binary. Female mean **39.73** (n=240), male **39.82** (n=180), ambiguous **39.48** (n=180); female minus male is **−0.09** (95% CI **−3.08 to +2.89**). Assigning the ambiguous names to either binary group changes the female–male difference by less than 0.2 points (all p>0.9). This is consistent with the tiny name main effect (0.14% of variance).
+
+![Perceived-gender boxplots with every CV](charts/10_gender_proxy.png)
+
+*Figure 7. Perceived gender from name shows no detectable score difference. Each point is one CV; boxes show the median and quartiles; ambiguous/unisex names are not forced into a binary.*
 
 ## Variance decomposition
 
@@ -119,7 +137,7 @@ The two-way model found no subject × profile interaction (p=0.19), no universit
 
 ![Share of variance explained by each factor](charts/07_variance_decomposition.png)
 
-*Figure 7. Subject explains 95.25% of the variance in CV-level means. The log scale is necessary because the remaining factors are all below 1%.*
+*Figure 8. Subject explains 95.25% of the variance in CV-level means. The log scale is necessary because the remaining factors are all below 1%.*
 
 ## Repeatability
 
@@ -140,7 +158,7 @@ Temperature 0 did not make the hosted endpoint deterministic. The overall correl
 
 ![Call agreement and Bland–Altman limits](charts/08_repeatability.png)
 
-*Figure 8. The left panel looks reassuring until the subject clusters are separated; within subject, the two calls are nearly uncorrelated (r=0.114). The right panel shows a 5.89-point SD of paired differences and wide limits of agreement.*
+*Figure 9. The left panel looks reassuring until the subject clusters are separated; within subject, the two calls are nearly uncorrelated (r=0.114). The right panel shows a 5.89-point SD of paired differences and wide limits of agreement.*
 
 ## Interpretation
 
@@ -150,7 +168,7 @@ Scores also collapse onto a small set of integers, consistent with a coarse rubr
 
 ![Mean score by degree subject and A-level profile](charts/09_subject_profile_heatmap.png)
 
-*Figure 9. The A-level profile gradient is a small parallel shift inside every subject band; there is no evidence that the profile effect reverses by subject.*
+*Figure 10. The A-level profile gradient is a small parallel shift inside every subject band; there is no evidence that the profile effect reverses by subject.*
 
 The weak university and name results are useful negative findings: changing a candidate's name or moving the same profile between four UK universities did not produce a reliable score shift. The A-level gradient is monotonic but small; the lowest profile costs roughly three points against the highest.
 
@@ -170,13 +188,15 @@ The classification finding should not be over-read. Business Studies is simultan
 
 - `charts/01_score_distribution.png` — overall distribution, stacked by degree subject.
 - `charts/02_subject_scores.png` — subject boxplots, individual CVs, and means.
-- `charts/03_candidate_names.png` — name means with 95% bootstrap intervals.
-- `charts/04_university.png` — university means and the Oxford contrast.
-- `charts/05_a_level_profile.png` — A/B/C profile means.
-- `charts/06_degree_classification.png` — First versus 2:1, with the confounding warning.
+- `charts/03_candidate_names.png` — name boxplots with every CV.
+- `charts/04_university.png` — university boxplots with every CV.
+- `charts/05_a_level_profile.png` — A/B/C profile boxplots with every CV.
+- `charts/06_degree_classification.png` — First versus 2:1 boxplots, with the confounding warning.
 - `charts/07_variance_decomposition.png` — share of variance by factor.
 - `charts/08_repeatability.png` — call agreement and Bland–Altman limits.
 - `charts/09_subject_profile_heatmap.png` — subject × profile means.
+- `charts/10_gender_proxy.png` — exploratory perceived-gender boxplots with every CV.
+- `analysis/gender_proxy.py` — reproducible name-grouping and chart script.
 - `data/cv_scores.csv` — one row per CV with the mean score and design attributes.
 - `data/dimension_summary.csv` — tidy means, SDs, bootstrap intervals, and deltas for every dimension level.
 
