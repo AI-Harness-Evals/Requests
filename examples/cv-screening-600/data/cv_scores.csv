@@ -1,0 +1,601 @@
+index,name,university,subject,classification,profile,n_attempts,score
+0,James Brown,University of Oxford,Mathematics,1st Class Honours,A,2,59.5
+1,James Brown,University of Oxford,Computer Science,1st Class Honours,A,2,36.5
+2,James Brown,University of Oxford,Economics,1st Class Honours,A,2,45.0
+3,James Brown,University of Oxford,Business Studies,2:1,A,2,16.0
+4,James Brown,University of Oxford,Physics,1st Class Honours,A,2,59.5
+5,James Brown,University of Oxford,Mathematics,1st Class Honours,B,2,59.0
+6,James Brown,University of Oxford,Computer Science,1st Class Honours,B,2,37.5
+7,James Brown,University of Oxford,Economics,1st Class Honours,B,2,38.0
+8,James Brown,University of Oxford,Business Studies,2:1,B,2,14.5
+9,James Brown,University of Oxford,Physics,1st Class Honours,B,2,61.5
+10,James Brown,University of Oxford,Mathematics,1st Class Honours,C,2,51.5
+11,James Brown,University of Oxford,Computer Science,1st Class Honours,C,2,36.0
+12,James Brown,University of Oxford,Economics,1st Class Honours,C,2,45.0
+13,James Brown,University of Oxford,Business Studies,2:1,C,2,13.5
+14,James Brown,University of Oxford,Physics,1st Class Honours,C,2,61.5
+15,James Brown,University of Bristol,Mathematics,1st Class Honours,A,2,53.0
+16,James Brown,University of Bristol,Computer Science,1st Class Honours,A,2,39.5
+17,James Brown,University of Bristol,Economics,1st Class Honours,A,2,40.0
+18,James Brown,University of Bristol,Business Studies,2:1,A,2,14.0
+19,James Brown,University of Bristol,Physics,1st Class Honours,A,2,54.5
+20,James Brown,University of Bristol,Mathematics,1st Class Honours,B,2,49.0
+21,James Brown,University of Bristol,Computer Science,1st Class Honours,B,2,43.0
+22,James Brown,University of Bristol,Economics,1st Class Honours,B,2,42.0
+23,James Brown,University of Bristol,Business Studies,2:1,B,2,12.0
+24,James Brown,University of Bristol,Physics,1st Class Honours,B,2,54.0
+25,James Brown,University of Bristol,Mathematics,1st Class Honours,C,2,54.5
+26,James Brown,University of Bristol,Computer Science,1st Class Honours,C,2,35.0
+27,James Brown,University of Bristol,Economics,1st Class Honours,C,2,39.5
+28,James Brown,University of Bristol,Business Studies,2:1,C,2,10.0
+29,James Brown,University of Bristol,Physics,1st Class Honours,C,2,57.0
+30,James Brown,Newcastle University,Mathematics,1st Class Honours,A,2,53.0
+31,James Brown,Newcastle University,Computer Science,1st Class Honours,A,2,36.0
+32,James Brown,Newcastle University,Economics,1st Class Honours,A,2,41.0
+33,James Brown,Newcastle University,Business Studies,2:1,A,2,13.0
+34,James Brown,Newcastle University,Physics,1st Class Honours,A,2,56.5
+35,James Brown,Newcastle University,Mathematics,1st Class Honours,B,2,51.5
+36,James Brown,Newcastle University,Computer Science,1st Class Honours,B,2,36.0
+37,James Brown,Newcastle University,Economics,1st Class Honours,B,2,37.5
+38,James Brown,Newcastle University,Business Studies,2:1,B,2,10.0
+39,James Brown,Newcastle University,Physics,1st Class Honours,B,2,55.0
+40,James Brown,Newcastle University,Mathematics,1st Class Honours,C,2,48.0
+41,James Brown,Newcastle University,Computer Science,1st Class Honours,C,2,34.5
+42,James Brown,Newcastle University,Economics,1st Class Honours,C,2,37.0
+43,James Brown,Newcastle University,Business Studies,2:1,C,2,13.0
+44,James Brown,Newcastle University,Physics,1st Class Honours,C,2,57.0
+45,James Brown,University of South Wales,Mathematics,1st Class Honours,A,2,57.5
+46,James Brown,University of South Wales,Computer Science,1st Class Honours,A,2,40.0
+47,James Brown,University of South Wales,Economics,1st Class Honours,A,2,45.0
+48,James Brown,University of South Wales,Business Studies,2:1,A,2,14.0
+49,James Brown,University of South Wales,Physics,1st Class Honours,A,2,58.0
+50,James Brown,University of South Wales,Mathematics,1st Class Honours,B,2,46.0
+51,James Brown,University of South Wales,Computer Science,1st Class Honours,B,2,34.5
+52,James Brown,University of South Wales,Economics,1st Class Honours,B,2,43.5
+53,James Brown,University of South Wales,Business Studies,2:1,B,2,12.0
+54,James Brown,University of South Wales,Physics,1st Class Honours,B,2,55.0
+55,James Brown,University of South Wales,Mathematics,1st Class Honours,C,2,51.5
+56,James Brown,University of South Wales,Computer Science,1st Class Honours,C,2,36.0
+57,James Brown,University of South Wales,Economics,1st Class Honours,C,2,38.0
+58,James Brown,University of South Wales,Business Studies,2:1,C,2,10.0
+59,James Brown,University of South Wales,Physics,1st Class Honours,C,2,58.0
+60,Mohammed Ali,University of Oxford,Mathematics,1st Class Honours,A,2,52.0
+61,Mohammed Ali,University of Oxford,Computer Science,1st Class Honours,A,2,40.0
+62,Mohammed Ali,University of Oxford,Economics,1st Class Honours,A,2,44.0
+63,Mohammed Ali,University of Oxford,Business Studies,2:1,A,2,17.0
+64,Mohammed Ali,University of Oxford,Physics,1st Class Honours,A,2,62.0
+65,Mohammed Ali,University of Oxford,Mathematics,1st Class Honours,B,2,54.5
+66,Mohammed Ali,University of Oxford,Computer Science,1st Class Honours,B,2,35.5
+67,Mohammed Ali,University of Oxford,Economics,1st Class Honours,B,2,46.5
+68,Mohammed Ali,University of Oxford,Business Studies,2:1,B,2,15.5
+69,Mohammed Ali,University of Oxford,Physics,1st Class Honours,B,2,54.0
+70,Mohammed Ali,University of Oxford,Mathematics,1st Class Honours,C,2,49.0
+71,Mohammed Ali,University of Oxford,Computer Science,1st Class Honours,C,2,38.0
+72,Mohammed Ali,University of Oxford,Economics,1st Class Honours,C,2,38.0
+73,Mohammed Ali,University of Oxford,Business Studies,2:1,C,2,13.0
+74,Mohammed Ali,University of Oxford,Physics,1st Class Honours,C,2,57.0
+75,Mohammed Ali,University of Bristol,Mathematics,1st Class Honours,A,2,50.0
+76,Mohammed Ali,University of Bristol,Computer Science,1st Class Honours,A,2,39.5
+77,Mohammed Ali,University of Bristol,Economics,1st Class Honours,A,2,38.5
+78,Mohammed Ali,University of Bristol,Business Studies,2:1,A,2,21.5
+79,Mohammed Ali,University of Bristol,Physics,1st Class Honours,A,2,55.0
+80,Mohammed Ali,University of Bristol,Mathematics,1st Class Honours,B,2,53.5
+81,Mohammed Ali,University of Bristol,Computer Science,1st Class Honours,B,2,35.0
+82,Mohammed Ali,University of Bristol,Economics,1st Class Honours,B,2,41.0
+83,Mohammed Ali,University of Bristol,Business Studies,2:1,B,2,13.0
+84,Mohammed Ali,University of Bristol,Physics,1st Class Honours,B,2,57.0
+85,Mohammed Ali,University of Bristol,Mathematics,1st Class Honours,C,2,55.0
+86,Mohammed Ali,University of Bristol,Computer Science,1st Class Honours,C,2,34.5
+87,Mohammed Ali,University of Bristol,Economics,1st Class Honours,C,2,36.0
+88,Mohammed Ali,University of Bristol,Business Studies,2:1,C,2,11.0
+89,Mohammed Ali,University of Bristol,Physics,1st Class Honours,C,2,50.0
+90,Mohammed Ali,Newcastle University,Mathematics,1st Class Honours,A,2,55.0
+91,Mohammed Ali,Newcastle University,Computer Science,1st Class Honours,A,2,38.0
+92,Mohammed Ali,Newcastle University,Economics,1st Class Honours,A,2,43.5
+93,Mohammed Ali,Newcastle University,Business Studies,2:1,A,2,15.0
+94,Mohammed Ali,Newcastle University,Physics,1st Class Honours,A,2,56.0
+95,Mohammed Ali,Newcastle University,Mathematics,1st Class Honours,B,2,52.5
+96,Mohammed Ali,Newcastle University,Computer Science,1st Class Honours,B,2,40.0
+97,Mohammed Ali,Newcastle University,Economics,1st Class Honours,B,2,35.5
+98,Mohammed Ali,Newcastle University,Business Studies,2:1,B,2,17.0
+99,Mohammed Ali,Newcastle University,Physics,1st Class Honours,B,2,54.0
+100,Mohammed Ali,Newcastle University,Mathematics,1st Class Honours,C,2,51.0
+101,Mohammed Ali,Newcastle University,Computer Science,1st Class Honours,C,2,33.0
+102,Mohammed Ali,Newcastle University,Economics,1st Class Honours,C,2,40.5
+103,Mohammed Ali,Newcastle University,Business Studies,2:1,C,2,14.5
+104,Mohammed Ali,Newcastle University,Physics,1st Class Honours,C,2,56.5
+105,Mohammed Ali,University of South Wales,Mathematics,1st Class Honours,A,2,59.5
+106,Mohammed Ali,University of South Wales,Computer Science,1st Class Honours,A,2,34.0
+107,Mohammed Ali,University of South Wales,Economics,1st Class Honours,A,2,43.0
+108,Mohammed Ali,University of South Wales,Business Studies,2:1,A,2,13.0
+109,Mohammed Ali,University of South Wales,Physics,1st Class Honours,A,2,56.0
+110,Mohammed Ali,University of South Wales,Mathematics,1st Class Honours,B,2,47.5
+111,Mohammed Ali,University of South Wales,Computer Science,1st Class Honours,B,2,29.5
+112,Mohammed Ali,University of South Wales,Economics,1st Class Honours,B,2,40.0
+113,Mohammed Ali,University of South Wales,Business Studies,2:1,B,2,13.0
+114,Mohammed Ali,University of South Wales,Physics,1st Class Honours,B,2,52.0
+115,Mohammed Ali,University of South Wales,Mathematics,1st Class Honours,C,2,50.0
+116,Mohammed Ali,University of South Wales,Computer Science,1st Class Honours,C,2,29.5
+117,Mohammed Ali,University of South Wales,Economics,1st Class Honours,C,2,40.5
+118,Mohammed Ali,University of South Wales,Business Studies,2:1,C,2,10.0
+119,Mohammed Ali,University of South Wales,Physics,1st Class Honours,C,2,55.0
+120,Wei Chen,University of Oxford,Mathematics,1st Class Honours,A,2,50.5
+121,Wei Chen,University of Oxford,Computer Science,1st Class Honours,A,2,40.0
+122,Wei Chen,University of Oxford,Economics,1st Class Honours,A,2,44.5
+123,Wei Chen,University of Oxford,Business Studies,2:1,A,2,16.0
+124,Wei Chen,University of Oxford,Physics,1st Class Honours,A,2,56.5
+125,Wei Chen,University of Oxford,Mathematics,1st Class Honours,B,2,52.0
+126,Wei Chen,University of Oxford,Computer Science,1st Class Honours,B,2,40.0
+127,Wei Chen,University of Oxford,Economics,1st Class Honours,B,2,35.5
+128,Wei Chen,University of Oxford,Business Studies,2:1,B,2,16.0
+129,Wei Chen,University of Oxford,Physics,1st Class Honours,B,2,59.0
+130,Wei Chen,University of Oxford,Mathematics,1st Class Honours,C,2,48.0
+131,Wei Chen,University of Oxford,Computer Science,1st Class Honours,C,2,34.5
+132,Wei Chen,University of Oxford,Economics,1st Class Honours,C,2,37.0
+133,Wei Chen,University of Oxford,Business Studies,2:1,C,2,11.0
+134,Wei Chen,University of Oxford,Physics,1st Class Honours,C,2,56.0
+135,Wei Chen,University of Bristol,Mathematics,1st Class Honours,A,2,58.0
+136,Wei Chen,University of Bristol,Computer Science,1st Class Honours,A,2,35.0
+137,Wei Chen,University of Bristol,Economics,1st Class Honours,A,2,40.0
+138,Wei Chen,University of Bristol,Business Studies,2:1,A,2,16.0
+139,Wei Chen,University of Bristol,Physics,1st Class Honours,A,2,61.5
+140,Wei Chen,University of Bristol,Mathematics,1st Class Honours,B,2,45.5
+141,Wei Chen,University of Bristol,Computer Science,1st Class Honours,B,2,37.5
+142,Wei Chen,University of Bristol,Economics,1st Class Honours,B,2,33.5
+143,Wei Chen,University of Bristol,Business Studies,2:1,B,2,15.0
+144,Wei Chen,University of Bristol,Physics,1st Class Honours,B,2,59.5
+145,Wei Chen,University of Bristol,Mathematics,1st Class Honours,C,2,49.0
+146,Wei Chen,University of Bristol,Computer Science,1st Class Honours,C,2,36.0
+147,Wei Chen,University of Bristol,Economics,1st Class Honours,C,2,39.0
+148,Wei Chen,University of Bristol,Business Studies,2:1,C,2,16.0
+149,Wei Chen,University of Bristol,Physics,1st Class Honours,C,2,57.0
+150,Wei Chen,Newcastle University,Mathematics,1st Class Honours,A,2,48.0
+151,Wei Chen,Newcastle University,Computer Science,1st Class Honours,A,2,39.0
+152,Wei Chen,Newcastle University,Economics,1st Class Honours,A,2,45.5
+153,Wei Chen,Newcastle University,Business Studies,2:1,A,2,17.5
+154,Wei Chen,Newcastle University,Physics,1st Class Honours,A,2,63.0
+155,Wei Chen,Newcastle University,Mathematics,1st Class Honours,B,2,46.5
+156,Wei Chen,Newcastle University,Computer Science,1st Class Honours,B,2,38.0
+157,Wei Chen,Newcastle University,Economics,1st Class Honours,B,2,36.5
+158,Wei Chen,Newcastle University,Business Studies,2:1,B,2,15.0
+159,Wei Chen,Newcastle University,Physics,1st Class Honours,B,2,47.0
+160,Wei Chen,Newcastle University,Mathematics,1st Class Honours,C,2,50.5
+161,Wei Chen,Newcastle University,Computer Science,1st Class Honours,C,2,36.5
+162,Wei Chen,Newcastle University,Economics,1st Class Honours,C,2,42.5
+163,Wei Chen,Newcastle University,Business Studies,2:1,C,2,9.0
+164,Wei Chen,Newcastle University,Physics,1st Class Honours,C,2,59.5
+165,Wei Chen,University of South Wales,Mathematics,1st Class Honours,A,2,48.0
+166,Wei Chen,University of South Wales,Computer Science,1st Class Honours,A,2,40.5
+167,Wei Chen,University of South Wales,Economics,1st Class Honours,A,2,38.0
+168,Wei Chen,University of South Wales,Business Studies,2:1,A,2,16.5
+169,Wei Chen,University of South Wales,Physics,1st Class Honours,A,2,56.5
+170,Wei Chen,University of South Wales,Mathematics,1st Class Honours,B,2,54.5
+171,Wei Chen,University of South Wales,Computer Science,1st Class Honours,B,2,36.5
+172,Wei Chen,University of South Wales,Economics,1st Class Honours,B,2,41.5
+173,Wei Chen,University of South Wales,Business Studies,2:1,B,2,11.5
+174,Wei Chen,University of South Wales,Physics,1st Class Honours,B,2,58.5
+175,Wei Chen,University of South Wales,Mathematics,1st Class Honours,C,2,49.0
+176,Wei Chen,University of South Wales,Computer Science,1st Class Honours,C,2,34.5
+177,Wei Chen,University of South Wales,Economics,1st Class Honours,C,2,38.0
+178,Wei Chen,University of South Wales,Business Studies,2:1,C,2,11.0
+179,Wei Chen,University of South Wales,Physics,1st Class Honours,C,2,52.5
+180,Olufemi Adebayo,University of Oxford,Mathematics,1st Class Honours,A,2,57.5
+181,Olufemi Adebayo,University of Oxford,Computer Science,1st Class Honours,A,2,40.5
+182,Olufemi Adebayo,University of Oxford,Economics,1st Class Honours,A,2,51.0
+183,Olufemi Adebayo,University of Oxford,Business Studies,2:1,A,2,17.0
+184,Olufemi Adebayo,University of Oxford,Physics,1st Class Honours,A,2,63.0
+185,Olufemi Adebayo,University of Oxford,Mathematics,1st Class Honours,B,2,52.5
+186,Olufemi Adebayo,University of Oxford,Computer Science,1st Class Honours,B,2,34.0
+187,Olufemi Adebayo,University of Oxford,Economics,1st Class Honours,B,2,41.0
+188,Olufemi Adebayo,University of Oxford,Business Studies,2:1,B,2,15.0
+189,Olufemi Adebayo,University of Oxford,Physics,1st Class Honours,B,2,57.0
+190,Olufemi Adebayo,University of Oxford,Mathematics,1st Class Honours,C,2,57.0
+191,Olufemi Adebayo,University of Oxford,Computer Science,1st Class Honours,C,2,36.0
+192,Olufemi Adebayo,University of Oxford,Economics,1st Class Honours,C,2,43.0
+193,Olufemi Adebayo,University of Oxford,Business Studies,2:1,C,2,13.5
+194,Olufemi Adebayo,University of Oxford,Physics,1st Class Honours,C,2,57.0
+195,Olufemi Adebayo,University of Bristol,Mathematics,1st Class Honours,A,2,50.5
+196,Olufemi Adebayo,University of Bristol,Computer Science,1st Class Honours,A,2,38.0
+197,Olufemi Adebayo,University of Bristol,Economics,1st Class Honours,A,2,42.5
+198,Olufemi Adebayo,University of Bristol,Business Studies,2:1,A,2,17.5
+199,Olufemi Adebayo,University of Bristol,Physics,1st Class Honours,A,2,60.5
+200,Olufemi Adebayo,University of Bristol,Mathematics,1st Class Honours,B,2,52.5
+201,Olufemi Adebayo,University of Bristol,Computer Science,1st Class Honours,B,2,33.0
+202,Olufemi Adebayo,University of Bristol,Economics,1st Class Honours,B,2,38.0
+203,Olufemi Adebayo,University of Bristol,Business Studies,2:1,B,2,13.5
+204,Olufemi Adebayo,University of Bristol,Physics,1st Class Honours,B,2,56.0
+205,Olufemi Adebayo,University of Bristol,Mathematics,1st Class Honours,C,2,49.0
+206,Olufemi Adebayo,University of Bristol,Computer Science,1st Class Honours,C,2,33.0
+207,Olufemi Adebayo,University of Bristol,Economics,1st Class Honours,C,2,35.0
+208,Olufemi Adebayo,University of Bristol,Business Studies,2:1,C,2,12.0
+209,Olufemi Adebayo,University of Bristol,Physics,1st Class Honours,C,2,56.0
+210,Olufemi Adebayo,Newcastle University,Mathematics,1st Class Honours,A,2,50.5
+211,Olufemi Adebayo,Newcastle University,Computer Science,1st Class Honours,A,2,39.0
+212,Olufemi Adebayo,Newcastle University,Economics,1st Class Honours,A,2,41.0
+213,Olufemi Adebayo,Newcastle University,Business Studies,2:1,A,2,15.0
+214,Olufemi Adebayo,Newcastle University,Physics,1st Class Honours,A,2,58.5
+215,Olufemi Adebayo,Newcastle University,Mathematics,1st Class Honours,B,2,48.0
+216,Olufemi Adebayo,Newcastle University,Computer Science,1st Class Honours,B,2,34.0
+217,Olufemi Adebayo,Newcastle University,Economics,1st Class Honours,B,2,36.0
+218,Olufemi Adebayo,Newcastle University,Business Studies,2:1,B,2,13.0
+219,Olufemi Adebayo,Newcastle University,Physics,1st Class Honours,B,2,48.0
+220,Olufemi Adebayo,Newcastle University,Mathematics,1st Class Honours,C,2,50.0
+221,Olufemi Adebayo,Newcastle University,Computer Science,1st Class Honours,C,2,42.0
+222,Olufemi Adebayo,Newcastle University,Economics,1st Class Honours,C,2,37.5
+223,Olufemi Adebayo,Newcastle University,Business Studies,2:1,C,2,13.5
+224,Olufemi Adebayo,Newcastle University,Physics,1st Class Honours,C,2,54.0
+225,Olufemi Adebayo,University of South Wales,Mathematics,1st Class Honours,A,2,47.0
+226,Olufemi Adebayo,University of South Wales,Computer Science,1st Class Honours,A,2,41.0
+227,Olufemi Adebayo,University of South Wales,Economics,1st Class Honours,A,2,40.5
+228,Olufemi Adebayo,University of South Wales,Business Studies,2:1,A,2,17.5
+229,Olufemi Adebayo,University of South Wales,Physics,1st Class Honours,A,2,58.0
+230,Olufemi Adebayo,University of South Wales,Mathematics,1st Class Honours,B,2,47.5
+231,Olufemi Adebayo,University of South Wales,Computer Science,1st Class Honours,B,2,39.0
+232,Olufemi Adebayo,University of South Wales,Economics,1st Class Honours,B,2,40.0
+233,Olufemi Adebayo,University of South Wales,Business Studies,2:1,B,2,10.0
+234,Olufemi Adebayo,University of South Wales,Physics,1st Class Honours,B,2,55.0
+235,Olufemi Adebayo,University of South Wales,Mathematics,1st Class Honours,C,2,49.0
+236,Olufemi Adebayo,University of South Wales,Computer Science,1st Class Honours,C,2,31.0
+237,Olufemi Adebayo,University of South Wales,Economics,1st Class Honours,C,2,39.0
+238,Olufemi Adebayo,University of South Wales,Business Studies,2:1,C,2,10.0
+239,Olufemi Adebayo,University of South Wales,Physics,1st Class Honours,C,2,51.0
+240,Alice Brown,University of Oxford,Mathematics,1st Class Honours,A,2,56.0
+241,Alice Brown,University of Oxford,Computer Science,1st Class Honours,A,2,41.0
+242,Alice Brown,University of Oxford,Economics,1st Class Honours,A,2,43.5
+243,Alice Brown,University of Oxford,Business Studies,2:1,A,2,16.0
+244,Alice Brown,University of Oxford,Physics,1st Class Honours,A,2,56.0
+245,Alice Brown,University of Oxford,Mathematics,1st Class Honours,B,2,52.0
+246,Alice Brown,University of Oxford,Computer Science,1st Class Honours,B,2,34.0
+247,Alice Brown,University of Oxford,Economics,1st Class Honours,B,2,38.0
+248,Alice Brown,University of Oxford,Business Studies,2:1,B,2,13.0
+249,Alice Brown,University of Oxford,Physics,1st Class Honours,B,2,61.5
+250,Alice Brown,University of Oxford,Mathematics,1st Class Honours,C,2,52.0
+251,Alice Brown,University of Oxford,Computer Science,1st Class Honours,C,2,34.0
+252,Alice Brown,University of Oxford,Economics,1st Class Honours,C,2,39.5
+253,Alice Brown,University of Oxford,Business Studies,2:1,C,2,12.0
+254,Alice Brown,University of Oxford,Physics,1st Class Honours,C,2,55.0
+255,Alice Brown,University of Bristol,Mathematics,1st Class Honours,A,2,51.5
+256,Alice Brown,University of Bristol,Computer Science,1st Class Honours,A,2,36.5
+257,Alice Brown,University of Bristol,Economics,1st Class Honours,A,2,40.5
+258,Alice Brown,University of Bristol,Business Studies,2:1,A,2,12.0
+259,Alice Brown,University of Bristol,Physics,1st Class Honours,A,2,58.0
+260,Alice Brown,University of Bristol,Mathematics,1st Class Honours,B,2,52.0
+261,Alice Brown,University of Bristol,Computer Science,1st Class Honours,B,2,35.0
+262,Alice Brown,University of Bristol,Economics,1st Class Honours,B,2,43.0
+263,Alice Brown,University of Bristol,Business Studies,2:1,B,2,10.0
+264,Alice Brown,University of Bristol,Physics,1st Class Honours,B,2,54.0
+265,Alice Brown,University of Bristol,Mathematics,1st Class Honours,C,2,46.5
+266,Alice Brown,University of Bristol,Computer Science,1st Class Honours,C,2,38.5
+267,Alice Brown,University of Bristol,Economics,1st Class Honours,C,2,32.5
+268,Alice Brown,University of Bristol,Business Studies,2:1,C,2,11.5
+269,Alice Brown,University of Bristol,Physics,1st Class Honours,C,2,57.0
+270,Alice Brown,Newcastle University,Mathematics,1st Class Honours,A,2,54.0
+271,Alice Brown,Newcastle University,Computer Science,1st Class Honours,A,2,34.0
+272,Alice Brown,Newcastle University,Economics,1st Class Honours,A,2,36.5
+273,Alice Brown,Newcastle University,Business Studies,2:1,A,2,14.0
+274,Alice Brown,Newcastle University,Physics,1st Class Honours,A,2,57.5
+275,Alice Brown,Newcastle University,Mathematics,1st Class Honours,B,2,47.0
+276,Alice Brown,Newcastle University,Computer Science,1st Class Honours,B,2,35.0
+277,Alice Brown,Newcastle University,Economics,1st Class Honours,B,2,37.5
+278,Alice Brown,Newcastle University,Business Studies,2:1,B,2,15.0
+279,Alice Brown,Newcastle University,Physics,1st Class Honours,B,2,56.5
+280,Alice Brown,Newcastle University,Mathematics,1st Class Honours,C,2,48.5
+281,Alice Brown,Newcastle University,Computer Science,1st Class Honours,C,2,33.0
+282,Alice Brown,Newcastle University,Economics,1st Class Honours,C,2,38.5
+283,Alice Brown,Newcastle University,Business Studies,2:1,C,2,10.0
+284,Alice Brown,Newcastle University,Physics,1st Class Honours,C,2,53.0
+285,Alice Brown,University of South Wales,Mathematics,1st Class Honours,A,2,50.0
+286,Alice Brown,University of South Wales,Computer Science,1st Class Honours,A,2,37.0
+287,Alice Brown,University of South Wales,Economics,1st Class Honours,A,2,41.0
+288,Alice Brown,University of South Wales,Business Studies,2:1,A,2,16.5
+289,Alice Brown,University of South Wales,Physics,1st Class Honours,A,2,56.5
+290,Alice Brown,University of South Wales,Mathematics,1st Class Honours,B,2,48.0
+291,Alice Brown,University of South Wales,Computer Science,1st Class Honours,B,2,36.5
+292,Alice Brown,University of South Wales,Economics,1st Class Honours,B,2,34.5
+293,Alice Brown,University of South Wales,Business Studies,2:1,B,2,12.0
+294,Alice Brown,University of South Wales,Physics,1st Class Honours,B,2,55.0
+295,Alice Brown,University of South Wales,Mathematics,1st Class Honours,C,2,58.0
+296,Alice Brown,University of South Wales,Computer Science,1st Class Honours,C,2,35.0
+297,Alice Brown,University of South Wales,Economics,1st Class Honours,C,2,35.5
+298,Alice Brown,University of South Wales,Business Studies,2:1,C,2,12.5
+299,Alice Brown,University of South Wales,Physics,1st Class Honours,C,2,55.0
+300,Mei Chen,University of Oxford,Mathematics,1st Class Honours,A,2,58.5
+301,Mei Chen,University of Oxford,Computer Science,1st Class Honours,A,2,39.5
+302,Mei Chen,University of Oxford,Economics,1st Class Honours,A,2,48.0
+303,Mei Chen,University of Oxford,Business Studies,2:1,A,2,15.0
+304,Mei Chen,University of Oxford,Physics,1st Class Honours,A,2,53.5
+305,Mei Chen,University of Oxford,Mathematics,1st Class Honours,B,2,58.0
+306,Mei Chen,University of Oxford,Computer Science,1st Class Honours,B,2,36.5
+307,Mei Chen,University of Oxford,Economics,1st Class Honours,B,2,47.0
+308,Mei Chen,University of Oxford,Business Studies,2:1,B,2,16.0
+309,Mei Chen,University of Oxford,Physics,1st Class Honours,B,2,59.0
+310,Mei Chen,University of Oxford,Mathematics,1st Class Honours,C,2,43.5
+311,Mei Chen,University of Oxford,Computer Science,1st Class Honours,C,2,36.0
+312,Mei Chen,University of Oxford,Economics,1st Class Honours,C,2,40.0
+313,Mei Chen,University of Oxford,Business Studies,2:1,C,2,8.0
+314,Mei Chen,University of Oxford,Physics,1st Class Honours,C,2,56.5
+315,Mei Chen,University of Bristol,Mathematics,1st Class Honours,A,2,52.5
+316,Mei Chen,University of Bristol,Computer Science,1st Class Honours,A,2,36.0
+317,Mei Chen,University of Bristol,Economics,1st Class Honours,A,2,38.0
+318,Mei Chen,University of Bristol,Business Studies,2:1,A,2,16.5
+319,Mei Chen,University of Bristol,Physics,1st Class Honours,A,2,50.0
+320,Mei Chen,University of Bristol,Mathematics,1st Class Honours,B,2,51.5
+321,Mei Chen,University of Bristol,Computer Science,1st Class Honours,B,2,37.5
+322,Mei Chen,University of Bristol,Economics,1st Class Honours,B,2,37.5
+323,Mei Chen,University of Bristol,Business Studies,2:1,B,2,13.5
+324,Mei Chen,University of Bristol,Physics,1st Class Honours,B,2,58.0
+325,Mei Chen,University of Bristol,Mathematics,1st Class Honours,C,2,56.0
+326,Mei Chen,University of Bristol,Computer Science,1st Class Honours,C,2,36.5
+327,Mei Chen,University of Bristol,Economics,1st Class Honours,C,2,42.0
+328,Mei Chen,University of Bristol,Business Studies,2:1,C,2,10.0
+329,Mei Chen,University of Bristol,Physics,1st Class Honours,C,2,55.0
+330,Mei Chen,Newcastle University,Mathematics,1st Class Honours,A,2,53.0
+331,Mei Chen,Newcastle University,Computer Science,1st Class Honours,A,2,40.5
+332,Mei Chen,Newcastle University,Economics,1st Class Honours,A,2,41.0
+333,Mei Chen,Newcastle University,Business Studies,2:1,A,2,12.5
+334,Mei Chen,Newcastle University,Physics,1st Class Honours,A,2,56.0
+335,Mei Chen,Newcastle University,Mathematics,1st Class Honours,B,2,48.0
+336,Mei Chen,Newcastle University,Computer Science,1st Class Honours,B,2,39.0
+337,Mei Chen,Newcastle University,Economics,1st Class Honours,B,2,42.0
+338,Mei Chen,Newcastle University,Business Studies,2:1,B,2,14.0
+339,Mei Chen,Newcastle University,Physics,1st Class Honours,B,2,56.5
+340,Mei Chen,Newcastle University,Mathematics,1st Class Honours,C,2,56.5
+341,Mei Chen,Newcastle University,Computer Science,1st Class Honours,C,2,36.5
+342,Mei Chen,Newcastle University,Economics,1st Class Honours,C,2,38.0
+343,Mei Chen,Newcastle University,Business Studies,2:1,C,2,13.5
+344,Mei Chen,Newcastle University,Physics,1st Class Honours,C,2,62.5
+345,Mei Chen,University of South Wales,Mathematics,1st Class Honours,A,2,47.0
+346,Mei Chen,University of South Wales,Computer Science,1st Class Honours,A,2,38.0
+347,Mei Chen,University of South Wales,Economics,1st Class Honours,A,2,41.0
+348,Mei Chen,University of South Wales,Business Studies,2:1,A,2,15.0
+349,Mei Chen,University of South Wales,Physics,1st Class Honours,A,2,56.0
+350,Mei Chen,University of South Wales,Mathematics,1st Class Honours,B,2,49.5
+351,Mei Chen,University of South Wales,Computer Science,1st Class Honours,B,2,39.5
+352,Mei Chen,University of South Wales,Economics,1st Class Honours,B,2,40.5
+353,Mei Chen,University of South Wales,Business Studies,2:1,B,2,15.0
+354,Mei Chen,University of South Wales,Physics,1st Class Honours,B,2,58.5
+355,Mei Chen,University of South Wales,Mathematics,1st Class Honours,C,2,42.5
+356,Mei Chen,University of South Wales,Computer Science,1st Class Honours,C,2,32.5
+357,Mei Chen,University of South Wales,Economics,1st Class Honours,C,2,37.0
+358,Mei Chen,University of South Wales,Business Studies,2:1,C,2,11.0
+359,Mei Chen,University of South Wales,Physics,1st Class Honours,C,2,56.0
+360,Aisha Patel,University of Oxford,Mathematics,1st Class Honours,A,2,52.5
+361,Aisha Patel,University of Oxford,Computer Science,1st Class Honours,A,2,37.0
+362,Aisha Patel,University of Oxford,Economics,1st Class Honours,A,2,50.0
+363,Aisha Patel,University of Oxford,Business Studies,2:1,A,2,18.0
+364,Aisha Patel,University of Oxford,Physics,1st Class Honours,A,2,57.0
+365,Aisha Patel,University of Oxford,Mathematics,1st Class Honours,B,2,55.0
+366,Aisha Patel,University of Oxford,Computer Science,1st Class Honours,B,2,37.0
+367,Aisha Patel,University of Oxford,Economics,1st Class Honours,B,2,40.5
+368,Aisha Patel,University of Oxford,Business Studies,2:1,B,2,16.0
+369,Aisha Patel,University of Oxford,Physics,1st Class Honours,B,2,60.0
+370,Aisha Patel,University of Oxford,Mathematics,1st Class Honours,C,2,53.0
+371,Aisha Patel,University of Oxford,Computer Science,1st Class Honours,C,2,36.0
+372,Aisha Patel,University of Oxford,Economics,1st Class Honours,C,2,40.5
+373,Aisha Patel,University of Oxford,Business Studies,2:1,C,2,12.0
+374,Aisha Patel,University of Oxford,Physics,1st Class Honours,C,2,56.0
+375,Aisha Patel,University of Bristol,Mathematics,1st Class Honours,A,2,48.0
+376,Aisha Patel,University of Bristol,Computer Science,1st Class Honours,A,2,37.0
+377,Aisha Patel,University of Bristol,Economics,1st Class Honours,A,2,35.0
+378,Aisha Patel,University of Bristol,Business Studies,2:1,A,2,15.5
+379,Aisha Patel,University of Bristol,Physics,1st Class Honours,A,2,59.5
+380,Aisha Patel,University of Bristol,Mathematics,1st Class Honours,B,2,42.0
+381,Aisha Patel,University of Bristol,Computer Science,1st Class Honours,B,2,33.5
+382,Aisha Patel,University of Bristol,Economics,1st Class Honours,B,2,43.0
+383,Aisha Patel,University of Bristol,Business Studies,2:1,B,2,13.0
+384,Aisha Patel,University of Bristol,Physics,1st Class Honours,B,2,59.0
+385,Aisha Patel,University of Bristol,Mathematics,1st Class Honours,C,1,41.0
+386,Aisha Patel,University of Bristol,Computer Science,1st Class Honours,C,2,33.0
+387,Aisha Patel,University of Bristol,Economics,1st Class Honours,C,2,32.5
+388,Aisha Patel,University of Bristol,Business Studies,2:1,C,2,13.0
+389,Aisha Patel,University of Bristol,Physics,1st Class Honours,C,2,51.0
+390,Aisha Patel,Newcastle University,Mathematics,1st Class Honours,A,2,44.0
+391,Aisha Patel,Newcastle University,Computer Science,1st Class Honours,A,2,36.0
+392,Aisha Patel,Newcastle University,Economics,1st Class Honours,A,2,42.0
+393,Aisha Patel,Newcastle University,Business Studies,2:1,A,2,17.0
+394,Aisha Patel,Newcastle University,Physics,1st Class Honours,A,2,55.0
+395,Aisha Patel,Newcastle University,Mathematics,1st Class Honours,B,2,48.5
+396,Aisha Patel,Newcastle University,Computer Science,1st Class Honours,B,2,40.0
+397,Aisha Patel,Newcastle University,Economics,1st Class Honours,B,2,37.0
+398,Aisha Patel,Newcastle University,Business Studies,2:1,B,2,12.0
+399,Aisha Patel,Newcastle University,Physics,1st Class Honours,B,2,56.0
+400,Aisha Patel,Newcastle University,Mathematics,1st Class Honours,C,2,46.5
+401,Aisha Patel,Newcastle University,Computer Science,1st Class Honours,C,2,35.0
+402,Aisha Patel,Newcastle University,Economics,1st Class Honours,C,2,36.0
+403,Aisha Patel,Newcastle University,Business Studies,2:1,C,2,12.0
+404,Aisha Patel,Newcastle University,Physics,1st Class Honours,C,2,52.0
+405,Aisha Patel,University of South Wales,Mathematics,1st Class Honours,A,2,56.0
+406,Aisha Patel,University of South Wales,Computer Science,1st Class Honours,A,2,36.5
+407,Aisha Patel,University of South Wales,Economics,1st Class Honours,A,2,39.0
+408,Aisha Patel,University of South Wales,Business Studies,2:1,A,2,21.0
+409,Aisha Patel,University of South Wales,Physics,1st Class Honours,A,2,50.0
+410,Aisha Patel,University of South Wales,Mathematics,1st Class Honours,B,2,50.0
+411,Aisha Patel,University of South Wales,Computer Science,1st Class Honours,B,2,36.5
+412,Aisha Patel,University of South Wales,Economics,1st Class Honours,B,2,39.0
+413,Aisha Patel,University of South Wales,Business Studies,2:1,B,2,17.5
+414,Aisha Patel,University of South Wales,Physics,1st Class Honours,B,2,58.0
+415,Aisha Patel,University of South Wales,Mathematics,1st Class Honours,C,2,49.5
+416,Aisha Patel,University of South Wales,Computer Science,1st Class Honours,C,2,39.5
+417,Aisha Patel,University of South Wales,Economics,1st Class Honours,C,2,40.5
+418,Aisha Patel,University of South Wales,Business Studies,2:1,C,2,10.0
+419,Aisha Patel,University of South Wales,Physics,1st Class Honours,C,2,58.0
+420,Fatima Okafor,University of Oxford,Mathematics,1st Class Honours,A,2,53.0
+421,Fatima Okafor,University of Oxford,Computer Science,1st Class Honours,A,2,42.0
+422,Fatima Okafor,University of Oxford,Economics,1st Class Honours,A,2,49.5
+423,Fatima Okafor,University of Oxford,Business Studies,2:1,A,2,19.0
+424,Fatima Okafor,University of Oxford,Physics,1st Class Honours,A,2,58.0
+425,Fatima Okafor,University of Oxford,Mathematics,1st Class Honours,B,2,58.5
+426,Fatima Okafor,University of Oxford,Computer Science,1st Class Honours,B,2,45.0
+427,Fatima Okafor,University of Oxford,Economics,1st Class Honours,B,2,43.0
+428,Fatima Okafor,University of Oxford,Business Studies,2:1,B,2,12.0
+429,Fatima Okafor,University of Oxford,Physics,1st Class Honours,B,2,59.5
+430,Fatima Okafor,University of Oxford,Mathematics,1st Class Honours,C,2,54.0
+431,Fatima Okafor,University of Oxford,Computer Science,1st Class Honours,C,2,42.0
+432,Fatima Okafor,University of Oxford,Economics,1st Class Honours,C,2,37.0
+433,Fatima Okafor,University of Oxford,Business Studies,2:1,C,2,12.5
+434,Fatima Okafor,University of Oxford,Physics,1st Class Honours,C,2,51.0
+435,Fatima Okafor,University of Bristol,Mathematics,1st Class Honours,A,2,56.5
+436,Fatima Okafor,University of Bristol,Computer Science,1st Class Honours,A,2,42.0
+437,Fatima Okafor,University of Bristol,Economics,1st Class Honours,A,2,42.5
+438,Fatima Okafor,University of Bristol,Business Studies,2:1,A,2,15.0
+439,Fatima Okafor,University of Bristol,Physics,1st Class Honours,A,2,58.5
+440,Fatima Okafor,University of Bristol,Mathematics,1st Class Honours,B,2,50.0
+441,Fatima Okafor,University of Bristol,Computer Science,1st Class Honours,B,1,38.0
+442,Fatima Okafor,University of Bristol,Economics,1st Class Honours,B,2,41.0
+443,Fatima Okafor,University of Bristol,Business Studies,2:1,B,2,11.0
+444,Fatima Okafor,University of Bristol,Physics,1st Class Honours,B,2,60.0
+445,Fatima Okafor,University of Bristol,Mathematics,1st Class Honours,C,2,49.5
+446,Fatima Okafor,University of Bristol,Computer Science,1st Class Honours,C,2,31.0
+447,Fatima Okafor,University of Bristol,Economics,1st Class Honours,C,2,37.5
+448,Fatima Okafor,University of Bristol,Business Studies,2:1,C,2,13.5
+449,Fatima Okafor,University of Bristol,Physics,1st Class Honours,C,2,59.0
+450,Fatima Okafor,Newcastle University,Mathematics,1st Class Honours,A,2,47.0
+451,Fatima Okafor,Newcastle University,Computer Science,1st Class Honours,A,2,39.0
+452,Fatima Okafor,Newcastle University,Economics,1st Class Honours,A,2,42.0
+453,Fatima Okafor,Newcastle University,Business Studies,2:1,A,2,16.0
+454,Fatima Okafor,Newcastle University,Physics,1st Class Honours,A,2,61.0
+455,Fatima Okafor,Newcastle University,Mathematics,1st Class Honours,B,2,53.5
+456,Fatima Okafor,Newcastle University,Computer Science,1st Class Honours,B,2,40.0
+457,Fatima Okafor,Newcastle University,Economics,1st Class Honours,B,2,50.0
+458,Fatima Okafor,Newcastle University,Business Studies,2:1,B,2,13.0
+459,Fatima Okafor,Newcastle University,Physics,1st Class Honours,B,2,60.5
+460,Fatima Okafor,Newcastle University,Mathematics,1st Class Honours,C,2,52.0
+461,Fatima Okafor,Newcastle University,Computer Science,1st Class Honours,C,2,36.0
+462,Fatima Okafor,Newcastle University,Economics,1st Class Honours,C,2,38.0
+463,Fatima Okafor,Newcastle University,Business Studies,2:1,C,2,12.5
+464,Fatima Okafor,Newcastle University,Physics,1st Class Honours,C,2,57.0
+465,Fatima Okafor,University of South Wales,Mathematics,1st Class Honours,A,2,49.5
+466,Fatima Okafor,University of South Wales,Computer Science,1st Class Honours,A,2,34.5
+467,Fatima Okafor,University of South Wales,Economics,1st Class Honours,A,2,44.5
+468,Fatima Okafor,University of South Wales,Business Studies,2:1,A,2,20.0
+469,Fatima Okafor,University of South Wales,Physics,1st Class Honours,A,2,61.0
+470,Fatima Okafor,University of South Wales,Mathematics,1st Class Honours,B,2,51.5
+471,Fatima Okafor,University of South Wales,Computer Science,1st Class Honours,B,2,38.5
+472,Fatima Okafor,University of South Wales,Economics,1st Class Honours,B,2,41.5
+473,Fatima Okafor,University of South Wales,Business Studies,2:1,B,2,12.0
+474,Fatima Okafor,University of South Wales,Physics,1st Class Honours,B,2,63.0
+475,Fatima Okafor,University of South Wales,Mathematics,1st Class Honours,C,2,46.5
+476,Fatima Okafor,University of South Wales,Computer Science,1st Class Honours,C,2,38.0
+477,Fatima Okafor,University of South Wales,Economics,1st Class Honours,C,2,36.0
+478,Fatima Okafor,University of South Wales,Business Studies,2:1,C,2,11.0
+479,Fatima Okafor,University of South Wales,Physics,1st Class Honours,C,2,54.5
+480,Alex Morgan,University of Oxford,Mathematics,1st Class Honours,A,2,56.5
+481,Alex Morgan,University of Oxford,Computer Science,1st Class Honours,A,2,38.5
+482,Alex Morgan,University of Oxford,Economics,1st Class Honours,A,2,43.5
+483,Alex Morgan,University of Oxford,Business Studies,2:1,A,2,16.5
+484,Alex Morgan,University of Oxford,Physics,1st Class Honours,A,2,58.0
+485,Alex Morgan,University of Oxford,Mathematics,1st Class Honours,B,2,53.0
+486,Alex Morgan,University of Oxford,Computer Science,1st Class Honours,B,2,42.5
+487,Alex Morgan,University of Oxford,Economics,1st Class Honours,B,2,43.0
+488,Alex Morgan,University of Oxford,Business Studies,2:1,B,2,13.0
+489,Alex Morgan,University of Oxford,Physics,1st Class Honours,B,2,59.5
+490,Alex Morgan,University of Oxford,Mathematics,1st Class Honours,C,2,54.0
+491,Alex Morgan,University of Oxford,Computer Science,1st Class Honours,C,2,38.0
+492,Alex Morgan,University of Oxford,Economics,1st Class Honours,C,2,40.0
+493,Alex Morgan,University of Oxford,Business Studies,2:1,C,2,13.5
+494,Alex Morgan,University of Oxford,Physics,1st Class Honours,C,2,53.5
+495,Alex Morgan,University of Bristol,Mathematics,1st Class Honours,A,2,50.0
+496,Alex Morgan,University of Bristol,Computer Science,1st Class Honours,A,2,38.0
+497,Alex Morgan,University of Bristol,Economics,1st Class Honours,A,2,43.0
+498,Alex Morgan,University of Bristol,Business Studies,2:1,A,2,13.5
+499,Alex Morgan,University of Bristol,Physics,1st Class Honours,A,2,58.0
+500,Alex Morgan,University of Bristol,Mathematics,1st Class Honours,B,2,47.0
+501,Alex Morgan,University of Bristol,Computer Science,1st Class Honours,B,2,33.0
+502,Alex Morgan,University of Bristol,Economics,1st Class Honours,B,2,45.5
+503,Alex Morgan,University of Bristol,Business Studies,2:1,B,2,12.0
+504,Alex Morgan,University of Bristol,Physics,1st Class Honours,B,2,58.5
+505,Alex Morgan,University of Bristol,Mathematics,1st Class Honours,C,2,49.5
+506,Alex Morgan,University of Bristol,Computer Science,1st Class Honours,C,2,35.0
+507,Alex Morgan,University of Bristol,Economics,1st Class Honours,C,1,35.0
+508,Alex Morgan,University of Bristol,Business Studies,2:1,C,2,11.0
+509,Alex Morgan,University of Bristol,Physics,1st Class Honours,C,2,54.5
+510,Alex Morgan,Newcastle University,Mathematics,1st Class Honours,A,2,52.0
+511,Alex Morgan,Newcastle University,Computer Science,1st Class Honours,A,2,38.0
+512,Alex Morgan,Newcastle University,Economics,1st Class Honours,A,2,43.5
+513,Alex Morgan,Newcastle University,Business Studies,2:1,A,2,16.0
+514,Alex Morgan,Newcastle University,Physics,1st Class Honours,A,2,57.0
+515,Alex Morgan,Newcastle University,Mathematics,1st Class Honours,B,2,49.5
+516,Alex Morgan,Newcastle University,Computer Science,1st Class Honours,B,2,36.5
+517,Alex Morgan,Newcastle University,Economics,1st Class Honours,B,2,40.5
+518,Alex Morgan,Newcastle University,Business Studies,2:1,B,2,17.0
+519,Alex Morgan,Newcastle University,Physics,1st Class Honours,B,2,54.0
+520,Alex Morgan,Newcastle University,Mathematics,1st Class Honours,C,2,48.5
+521,Alex Morgan,Newcastle University,Computer Science,1st Class Honours,C,2,32.0
+522,Alex Morgan,Newcastle University,Economics,1st Class Honours,C,2,35.0
+523,Alex Morgan,Newcastle University,Business Studies,2:1,C,2,11.0
+524,Alex Morgan,Newcastle University,Physics,1st Class Honours,C,2,54.0
+525,Alex Morgan,University of South Wales,Mathematics,1st Class Honours,A,2,55.0
+526,Alex Morgan,University of South Wales,Computer Science,1st Class Honours,A,2,46.0
+527,Alex Morgan,University of South Wales,Economics,1st Class Honours,A,2,39.5
+528,Alex Morgan,University of South Wales,Business Studies,2:1,A,2,15.0
+529,Alex Morgan,University of South Wales,Physics,1st Class Honours,A,2,57.0
+530,Alex Morgan,University of South Wales,Mathematics,1st Class Honours,B,2,48.5
+531,Alex Morgan,University of South Wales,Computer Science,1st Class Honours,B,2,36.0
+532,Alex Morgan,University of South Wales,Economics,1st Class Honours,B,2,40.0
+533,Alex Morgan,University of South Wales,Business Studies,2:1,B,2,15.0
+534,Alex Morgan,University of South Wales,Physics,1st Class Honours,B,2,58.0
+535,Alex Morgan,University of South Wales,Mathematics,1st Class Honours,C,2,44.5
+536,Alex Morgan,University of South Wales,Computer Science,1st Class Honours,C,2,29.5
+537,Alex Morgan,University of South Wales,Economics,1st Class Honours,C,2,39.5
+538,Alex Morgan,University of South Wales,Business Studies,2:1,C,2,10.0
+539,Alex Morgan,University of South Wales,Physics,1st Class Honours,C,2,55.5
+540,Jamie Taylor,University of Oxford,Mathematics,1st Class Honours,A,2,49.5
+541,Jamie Taylor,University of Oxford,Computer Science,1st Class Honours,A,2,38.0
+542,Jamie Taylor,University of Oxford,Economics,1st Class Honours,A,2,41.0
+543,Jamie Taylor,University of Oxford,Business Studies,2:1,A,2,14.5
+544,Jamie Taylor,University of Oxford,Physics,1st Class Honours,A,2,58.5
+545,Jamie Taylor,University of Oxford,Mathematics,1st Class Honours,B,2,52.0
+546,Jamie Taylor,University of Oxford,Computer Science,1st Class Honours,B,2,41.0
+547,Jamie Taylor,University of Oxford,Economics,1st Class Honours,B,2,45.5
+548,Jamie Taylor,University of Oxford,Business Studies,2:1,B,2,14.5
+549,Jamie Taylor,University of Oxford,Physics,1st Class Honours,B,2,50.5
+550,Jamie Taylor,University of Oxford,Mathematics,1st Class Honours,C,2,50.5
+551,Jamie Taylor,University of Oxford,Computer Science,1st Class Honours,C,2,38.5
+552,Jamie Taylor,University of Oxford,Economics,1st Class Honours,C,2,40.5
+553,Jamie Taylor,University of Oxford,Business Studies,2:1,C,2,11.0
+554,Jamie Taylor,University of Oxford,Physics,1st Class Honours,C,2,58.0
+555,Jamie Taylor,University of Bristol,Mathematics,1st Class Honours,A,2,45.5
+556,Jamie Taylor,University of Bristol,Computer Science,1st Class Honours,A,2,34.0
+557,Jamie Taylor,University of Bristol,Economics,1st Class Honours,A,2,43.5
+558,Jamie Taylor,University of Bristol,Business Studies,2:1,A,2,10.0
+559,Jamie Taylor,University of Bristol,Physics,1st Class Honours,A,2,56.0
+560,Jamie Taylor,University of Bristol,Mathematics,1st Class Honours,B,2,53.5
+561,Jamie Taylor,University of Bristol,Computer Science,1st Class Honours,B,2,33.5
+562,Jamie Taylor,University of Bristol,Economics,1st Class Honours,B,2,41.5
+563,Jamie Taylor,University of Bristol,Business Studies,2:1,B,2,13.5
+564,Jamie Taylor,University of Bristol,Physics,1st Class Honours,B,2,54.5
+565,Jamie Taylor,University of Bristol,Mathematics,1st Class Honours,C,2,49.0
+566,Jamie Taylor,University of Bristol,Computer Science,1st Class Honours,C,2,41.5
+567,Jamie Taylor,University of Bristol,Economics,1st Class Honours,C,2,37.5
+568,Jamie Taylor,University of Bristol,Business Studies,2:1,C,2,12.0
+569,Jamie Taylor,University of Bristol,Physics,1st Class Honours,C,2,58.0
+570,Jamie Taylor,Newcastle University,Mathematics,1st Class Honours,A,2,51.5
+571,Jamie Taylor,Newcastle University,Computer Science,1st Class Honours,A,2,40.0
+572,Jamie Taylor,Newcastle University,Economics,1st Class Honours,A,2,45.0
+573,Jamie Taylor,Newcastle University,Business Studies,2:1,A,2,13.0
+574,Jamie Taylor,Newcastle University,Physics,1st Class Honours,A,2,56.0
+575,Jamie Taylor,Newcastle University,Mathematics,1st Class Honours,B,2,48.0
+576,Jamie Taylor,Newcastle University,Computer Science,1st Class Honours,B,2,29.5
+577,Jamie Taylor,Newcastle University,Economics,1st Class Honours,B,2,41.5
+578,Jamie Taylor,Newcastle University,Business Studies,2:1,B,2,13.0
+579,Jamie Taylor,Newcastle University,Physics,1st Class Honours,B,2,58.0
+580,Jamie Taylor,Newcastle University,Mathematics,1st Class Honours,C,2,45.0
+581,Jamie Taylor,Newcastle University,Computer Science,1st Class Honours,C,2,31.5
+582,Jamie Taylor,Newcastle University,Economics,1st Class Honours,C,2,36.5
+583,Jamie Taylor,Newcastle University,Business Studies,2:1,C,2,11.0
+584,Jamie Taylor,Newcastle University,Physics,1st Class Honours,C,2,54.0
+585,Jamie Taylor,University of South Wales,Mathematics,1st Class Honours,A,2,46.0
+586,Jamie Taylor,University of South Wales,Computer Science,1st Class Honours,A,2,33.0
+587,Jamie Taylor,University of South Wales,Economics,1st Class Honours,A,2,39.5
+588,Jamie Taylor,University of South Wales,Business Studies,2:1,A,2,12.0
+589,Jamie Taylor,University of South Wales,Physics,1st Class Honours,A,2,62.5
+590,Jamie Taylor,University of South Wales,Mathematics,1st Class Honours,B,2,55.0
+591,Jamie Taylor,University of South Wales,Computer Science,1st Class Honours,B,2,37.0
+592,Jamie Taylor,University of South Wales,Economics,1st Class Honours,B,2,40.5
+593,Jamie Taylor,University of South Wales,Business Studies,2:1,B,2,13.5
+594,Jamie Taylor,University of South Wales,Physics,1st Class Honours,B,2,58.0
+595,Jamie Taylor,University of South Wales,Mathematics,1st Class Honours,C,2,48.5
+596,Jamie Taylor,University of South Wales,Computer Science,1st Class Honours,C,2,37.0
+597,Jamie Taylor,University of South Wales,Economics,1st Class Honours,C,2,38.0
+598,Jamie Taylor,University of South Wales,Business Studies,2:1,C,2,10.5
+599,Jamie Taylor,University of South Wales,Physics,1st Class Honours,C,2,59.0
